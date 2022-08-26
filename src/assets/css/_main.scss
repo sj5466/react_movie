@@ -1,0 +1,24 @@
+.main__cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--bg);
+  
+    .main__inner {
+      font-size: 10vw;
+      line-height: 0.85;
+      letter-spacing: 0.2vw;
+      text-align: center;
+      font-family: var(--bebas_font);
+      color: var(--font_color);
+      text-transform: uppercase;
+    }
+  }
+  
+  // main Animation
+  // .main__inner > div {
+  //     opacity: 0;
+  //     transform: translateY(100px);
+  // }
+  

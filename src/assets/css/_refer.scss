@@ -1,0 +1,107 @@
+.refer__cont {
+    background-color: var(--bg);
+    min-height: 100vh;
+}
+.refer__inner {
+
+    h2 {
+        color: var(--font_color);
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.refer__list {
+    border-top: 2px solid var(--font_color);
+    border-bottom: 1px solid var(--font_color);
+
+    a {
+        display: block;
+        color: var(--font_color);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--font_color);
+        padding: 1.3rem 0;
+        transition: all 0.3s;
+        font-family: var(--subKor_font);
+
+        &:hover {
+            background: var(--border_color);
+            color: var(--bg);
+        }
+        span {
+            display: inline-block;
+        }
+        span:nth-child(1) {
+            width: 6%;
+            text-align: center;
+        }
+        span:nth-child(2) {
+            width: 20%;
+        }
+        span:nth-child(3) {
+            width: 64%;
+        }
+        span:nth-child(4) {
+            width: 10%;
+            text-align: center;
+        }
+    }
+}
+
+.refer__table {
+    margin-top: 200px;
+    color: var(--white);
+    font-family: var(--subKor_font);
+
+    h3 {
+        font-size: 3rem;
+    }
+    p {
+        background-color: var(--bg);
+        color: var(--bg);
+        padding: 1.4em;
+    }
+
+    .table {
+        color: var(--font_color);
+        font-family: var(--subKor_font);
+        border: 1px solid var(--light_bg);
+        margin-top: 0.5em;
+
+        th, td {
+            font-weight: normal;
+            padding: 1em;
+            border-bottom: 1px solid var(--light_bg);
+            border-left: 1px solid var(--light_bg);
+        }
+    }
+}
+
+
+.refer__cont.light {
+    background-color: var(--light_bg);
+
+    .refer__inner {
+        h2 {
+            color: var(--bg);
+        }
+
+        table {
+            border-color : var(--bg);
+            color: var(--bg);
+
+            td {
+                border-color: var(--bg);
+            }
+        }
+    }
+}
+
+
+//애니메이션
+// .refer__inner {
+//     opacity: 0;
+//     transform: translateY(50px);
+// }
